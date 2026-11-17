@@ -1,0 +1,15 @@
+Package: echoweevr.tools
+Title: Provides tools for exports from echoweevr
+Version: 0.0.0.9000
+Authors@R: 
+    person("Chris", "Carrington", , "chris@echoweevr.com", role = c("aut", "cre"))
+Description: Provides tools for working with echoweevr exports. Currently has only 
+    one function that loads a json export file into a useful tibble.
+License: `use_mit_license()`
+Config/roxygen2/version: 8.1.1
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Imports:
+    jsonlite,
+    purrr,
+    tibble
