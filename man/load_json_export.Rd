@@ -13,7 +13,7 @@ load_json_export(jsonfile)
 A tibble of the JSON file, with one row per code
 }
 \description{
-Takes an input file path, loads its contents, and returns a useable tibble.
+Takes an input file path, loads its contents, and returns a usable tibble.
 }
 \details{
 The export contents it expects looks like the following:
