@@ -1,6 +1,6 @@
 #' Load a JSON export from echoweevr
 #'
-#' Takes an input file path, loads its contents, and returns a useable tibble.
+#' Takes an input file path, loads its contents, and returns a usable tibble.
 #'
 #' The export contents it expects looks like the following:
 #' ```json
